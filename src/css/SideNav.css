@@ -1,0 +1,17 @@
+.NavBar {
+    background-color: black;
+    color: white;
+    height: 85vh;
+    width: 20%;
+    min-width: 200px;
+    padding: 15px;
+    text-align: left;
+}
+
+.NavLogo {
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 40px;
+    width: auto;
+    padding-bottom: 10px;
+}

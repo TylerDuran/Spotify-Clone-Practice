@@ -1,0 +1,106 @@
+.Bottom {
+    position: fixed;
+    height: 25vh;
+    width: 100%;
+    background-color: #181818;
+    color: #FFFFFF;
+    border: solid 1px grey;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/* ///////////////// PLAY/PAUSE ////////////////////////////////////////////// */
+
+.BottomPlayPauseNB {
+    width: 50%;
+    color: #BABABA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    padding-left: 250px;
+}
+
+
+.Shuffle{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.SkipPrev{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Play{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.SkipNext{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Repeat{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Shuffle:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.SkipPrev:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.Play:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.SkipNext:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.Repeat:hover {
+    color: white;
+    cursor: pointer;
+}
+
+
+/* ///////////////// VOLUME CONTROLS ////////////////////////////////////////////// */
+
+.BottomVolume {
+    width: 20%;
+    height: 70px;
+    color: #BABABA;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 35px;
+}
+
+.VolumeIcon{
+    padding-top: 4px;
+} 
+
+.Slider {
+    color: #BABABA;
+}
+
+.VolumeIcon:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.Slider:hover {
+    color: white;
+    cursor: pointer;
+}

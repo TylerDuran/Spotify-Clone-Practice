@@ -1,0 +1,36 @@
+.login {
+    /* Little trick i utilized from "Clever Programmer YT"   */
+    display: grid;  
+    place-items: center;
+    /* ///////////////////////////////////////////////////// */
+    height: 100vh;
+    background-color: black;
+    /* Pulled this background image from Spotify's page */
+    background-image: url(https://www-growth.scdn.co/static/home/bursts-tablet.svg);
+    /* ///////////////////////////////////////////////////// */
+    background-size: 125%;
+    background-position: right 50% center;
+}
+
+.spotifyLogo {
+    margin-bottom: 50px;
+    height: auto;
+    width: auto;
+
+}
+.logContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.loginButton {
+    padding: 25px;
+    border: solid;
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 18px;
+    color: black;
+    background-color: #49D75F;
+    text-align: center;
+    cursor: pointer;
+}

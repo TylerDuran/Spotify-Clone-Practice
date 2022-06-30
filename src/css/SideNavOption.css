@@ -1,0 +1,22 @@
+.SideNavOption{
+    color: #B3B3B3;
+    margin-top: 25px;
+    transition: 150ms color ease-in-out;
+    display: flex;
+    align-items: center;
+}
+
+.NavBar > hr {
+    margin-top: 20px;
+    border: 1px solid #282828;
+}
+
+.SideNavOption:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.SideNavOptionIcon{
+    padding-left: 5px;
+    padding-right: 15px;
+}

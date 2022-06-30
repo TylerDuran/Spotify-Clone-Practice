@@ -1,0 +1,27 @@
+.Header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.HeadLeft > input {
+    border: none;
+    width: 100%;
+}
+
+.HeadLeft {
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    color: lightgrey;
+    border-radius: 30px;
+    align-items: center;
+    width: 50%;
+    min-width: 80px;
+    height: 5px;
+}
+
+.HeadRight {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
